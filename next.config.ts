@@ -1,7 +1,8 @@
-import type { NextConfig } from "next";
-
-const nextConfig: NextConfig = {
-  /* config options here */
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+      images: {
+    domains: ["plus.unsplash.com" , "vl-prod-static.b-cdn.net" , "images.pexels.com","images.unsplash.com", "www.pexels.com"], // 👈 Add this line
+  },
 };
 
 export default nextConfig;
