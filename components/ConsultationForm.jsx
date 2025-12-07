@@ -229,7 +229,8 @@ export default function ConsultationForm({ open, onClose }) {
                       name="time"
                       value={formData.time}
                       onChange={handleChange}
-                      type="time"
+                      type="text"
+                      placeholder="e.g. 10:00 AM"
                       className="mt-1 w-full rounded-md border border-slate-300 px-3 py-2 text-sm outline-none focus:border-slate-900"
                     />
                   </div>
