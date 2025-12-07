@@ -41,7 +41,7 @@ export default function Navbar() {
           className="text-2xl font-bold text-cyan-600 tracking-wide"
         >
           <div className="w-32 h-16 md:w-40 md:h-20 relative cursor-pointer" onClick={() => router.push("/")}>
-            <Image src="/LOGO.png" fill className="object-contain" alt="Logo" priority />
+            <Image src="/devsphere-logo.png" fill className="object-contain" alt="Logo" priority />
           </div>
         </motion.div>
 
